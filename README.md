@@ -82,8 +82,7 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
     Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que auxilie no cadastro dos clientes, e principalmente no pós-venda, sendo utilizado de um forma de trabalho antiquada, se fazendo necessário incrementar formas de contato mais simples, sem ser necessário o cliente se deslocar até a loja ou ligar para solicitar tarefas simples como a troca de produto ou até mesmo a demanda do pedido e sua forma de pagamento, também é extremamente necessário que o próprio sistema gere os relatórios dos pedidos, sua situação,e notifique quando este é finalizado, fazendo com que o controle por parte do gerente se torne mais fácil.
 
    
-
 # Descrição da proposta
 
-    O foco do sistema será na gestão dos pedidos e clientes, auxiliando de forma prática no cadastro dos clientes e no controle dos pedidos e geração de relatórios. O sistema terá partes que serão exclusiva dos gerentes como a parte de geração dos relatórios e todo o controle dos pedidos; Já os atendentes farão uso da parte do cadastro tanto de vendas quanto de clientes.
-O site terá as telas iniciais com uma breve apresentação dos produtos, a página específica de cada produto, uma página para realizar a compra do produto, uma página para registro do cliente, e para os gerentes, uma página de controle dos pedidos e relatórios.
+   O foco do sistema será na gestão dos pedidos e clientes, auxiliando de forma prática no cadastro dos clientes e no controle dos pedidos e geração de relatórios. O sistema terá partes que serão exclusiva dos gerentes como a parte de geração dos relatórios e todo o controle dos pedidos; Já os atendentes farão uso da parte do cadastro tanto de vendas quanto de clientes.
+  O site terá as telas iniciais com uma breve apresentação dos produtos, a página específica de cada produto, uma página para realizar a compra do produto, uma página para registro do cliente, e para os gerentes, uma página de controle dos pedidos e relatórios
