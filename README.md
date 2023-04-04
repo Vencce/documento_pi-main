@@ -1,16 +1,3 @@
-# Projeto Integrador - Modelo
-
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
-
-Links do projeto:
-
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
-
-
 ## 1- Ponto de Vendas (PDV)
 
 **Gerenciamento de vendas para uma loja de móveis**
