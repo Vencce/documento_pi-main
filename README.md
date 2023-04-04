@@ -4,7 +4,7 @@
 
 O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móveis JS" e, devido a um ótimo atendimento de seus clientes, alcançou um crescimento muito rápido na sua empresa, necessitando de mais funcionários para gerir a demanda que só crescia. José agora procura desenvolver um sistema de modo que aumente a praticidade de seus funcionários de gerir a nova demanda, de forma com que haja um controle dos produtos,e relatórios de vendas.  
 
-# SITUAÇÃO PROBLEMA: 
+# Situação Problema: 
 
    A Móveis JS, é uma empresa criada por José de Souza, no ano de 2018, tem como foco a venda de móveis pré-moldados, tendo como principais            características a qualidade dos produtos e o excelente atendimento, sendo possível por meio de tais qualidades um crescimento altissímo no último ano, se fazendo necessário a busca por um sistema.
 
@@ -27,7 +27,7 @@ O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móvei
    Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que auxilie no cadastro dos clientes, e principalmente no pós-venda, sendo utilizado de um forma de trabalho antiquada, se fazendo necessário incrementar formas de contato mais simples, sem ser necessário o cliente se deslocar até a loja ou ligar para solicitar tarefas simples como a troca de produto ou até mesmo a demanda do pedido e sua forma de pagamento, também é extremamente necessário que o próprio sistema gere os relatórios dos pedidos, sua situação,e notifique quando este é finalizado, fazendo com que o controle por parte do gerente se torne mais fácil.
 
    
-# Descrição da proposta
+# Descrição da Proposta
  
    Com os problemas apresentados anteriormente, o obejetivo dessa proposta é desenvolver um software em que melhore o controle de informações e pagamento.  
    
