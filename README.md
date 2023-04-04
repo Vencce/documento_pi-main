@@ -62,26 +62,25 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
 
 # SITUAÇÃO PROBLEMA: 
 
+   A Móveis JS, é uma empresa criada por José de Souza, no ano de 2018, tem como foco a venda de móveis pré-moldados, tendo como principais            características a qualidade dos produtos e o excelente atendimento, sendo possível por meio de tais qualidades um crescimento altissímo no último ano, se fazendo necessário a busca por um sistema.
 
-    A Móveis JS, é uma empresa criada por José de Souza, no ano de 2018, tem como foco a venda de móveis pré-moldados, tendo como principais características a qualidade dos produtos e o excelente atendimento, sendo possível por meio de tais qualidades um crescimento altissímo no último ano, se fazendo necessário a busca por um sistema.
+   Atualmente a loja possui 10 funcionários, sendo o dono (José de Souza), um gerente, 3 caixas, e 5 atendentes.
 
-    Atualmente a loja possui 10 funcionários, sendo o dono (José de Souza), um gerente, 3 caixas, e 5 atendentes.
+   O cliente chega na loja, e analisa as opções de móveis que ele quer com a ajuda de um funcionário disponível, o funcionário anota os seus produtos escolhidos, após escolher o produto o cliente é direcionado ao caixa.
 
-    O cliente chega na loja, e analisa as opções de móveis que ele quer com a ajuda de um funcionário disponível, o funcionário anota os seus produtos escolhidos, após escolher o produto o cliente é direcionado ao caixa.
+   Chegando ao caixa, o cliente diz o seu nome,telefone e endereço, porém como é feito de forma manual não há como ter uma forma eficiente de ter controle dessas informações. 
 
-    Chegando ao caixa, o cliente diz o seu nome,telefone e endereço, porém como é feito de forma manual não há como ter uma forma eficiente de ter controle dessas informações. 
+   Após essa etapa , a (o) atendente solicita pela forma pagamento podendo ser somente: Á vista, Débito e Crédito. Com o pagamento sendo realizado, o pedido é encaminhado para o estoque, onde será preparado a entrega.
 
-    Após essa etapa , a (o) atendente solicita pela forma pagamento podendo ser somente: Á vista, Débito e Crédito. Com o pagamento sendo realizado, o pedido é encaminhado para o estoque, onde será preparado a entrega.
+   O pedido será efetuado e devidemente preparado para entrega, sem um prazo de entrega pré-definido 
 
-    O pedido será efetuado e devidemente preparado para entrega, sem um prazo de entrega pré-definido 
+   Contudo o pedido só é encaminhado para entrega após a efetuação do pagamento, com um tempo limite de 7 dias, se após esse período não houver a efetuação, o pedido é retirado da planilha, ou seja cancelado.
 
-    Contudo o pedido só é encaminhado para entrega após a efetuação do pagamento, com um tempo limite de 7 dias, se após esse período não houver a efetuação, o pedido é retirado da planilha, ou seja cancelado.
+   Se caso o cliente querer cancelar sua compra deverá vir até a loja relatando o motivo para não comprar o produto. 
 
-    Se caso o cliente querer cancelar sua compra deverá vir até a loja relatando o motivo para não comprar o produto. 
-
-    Após o cumprimento de todos os tópicos anteriores, o pedido é entregue, e se houver algum defeito o cliente poderá entrar em contato com a loja, via número de telefone ou indo até a loja, notificando o problema, e solicitando um novo produto.
+   Após o cumprimento de todos os tópicos anteriores, o pedido é entregue, e se houver algum defeito o cliente poderá entrar em contato com a loja, via número de telefone ou indo até a loja, notificando o problema, e solicitando um novo produto.
     
-    Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que auxilie no cadastro dos clientes, e principalmente no pós-venda, sendo utilizado de um forma de trabalho antiquada, se fazendo necessário incrementar formas de contato mais simples, sem ser necessário o cliente se deslocar até a loja ou ligar para solicitar tarefas simples como a troca de produto ou até mesmo a demanda do pedido e sua forma de pagamento, também é extremamente necessário que o próprio sistema gere os relatórios dos pedidos, sua situação,e notifique quando este é finalizado, fazendo com que o controle por parte do gerente se torne mais fácil.
+   Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que auxilie no cadastro dos clientes, e principalmente no pós-venda, sendo utilizado de um forma de trabalho antiquada, se fazendo necessário incrementar formas de contato mais simples, sem ser necessário o cliente se deslocar até a loja ou ligar para solicitar tarefas simples como a troca de produto ou até mesmo a demanda do pedido e sua forma de pagamento, também é extremamente necessário que o próprio sistema gere os relatórios dos pedidos, sua situação,e notifique quando este é finalizado, fazendo com que o controle por parte do gerente se torne mais fácil.
 
    
 # Descrição da proposta
