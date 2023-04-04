@@ -10,55 +10,12 @@ Links do projeto:
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
-# Como usar esse modelo para o Projeto Integrador
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# Desenvolvimento
-
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
-# Modelos de Sistemas
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 ## 1- Ponto de Vendas (PDV)
 
 **Gerenciamento de vendas para uma loja de móveis**
 
 O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móveis JS" e, devido a um ótimo atendimento de seus clientes, alcançou um crescimento muito rápido na sua empresa, necessitando de mais funcionários para gerir a demanda que só crescia. José agora procura desenvolver um sistema de modo que aumente a praticidade de seus funcionários de gerir a nova demanda, de forma com que haja um controle dos produtos,e relatórios de vendas.  
-
-# Situação Problema
-
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
-
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são
-    propostas com empresas fictícias, sendo assim,
-    você terá que tomar certas decisões sobre como
-    a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
-    Genival contratou mais funcionários, mas saber
-    quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-    empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
 
 # SITUAÇÃO PROBLEMA: 
 
