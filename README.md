@@ -45,4 +45,81 @@ O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móvei
   
    O site terá as telas iniciais com uma breve apresentação dos produtos, a página específica de cada produto, uma página para realizar a compra do produto, uma página para registro do cliente, e para os gerentes, uma página de controle dos pedidos e relatórios.
 
-   O sistema terá partes que serão exclusiva dos gerentes como a parte de geração dos relatórios e todo o controle dos pedidos. 
+   O sistema terá partes que serão exclusiva dos gerentes como a parte de geração dos relatórios e todo o controle dos pedidos.
+
+# Regras de Negócio
+
+   RN001-**Cadastro de clientes:** O cliente deve fornecer as seguintes informações no cadastro: CPF, telefone, endereço, nome e e-mail.
+
+   RN002-**Pedidos:**   
+   Para realizar o pedido o cliente deve estar cadastrado no sistema.
+
+   O pedido será será separado para entrega conforme disponibilidade no estoque.
+
+   O sistema deve estabelecer um prazo de entrega pré-definido com base no produto e sua disponibilidade.
+
+   RN003-**Formas de Pagamento:**
+   O cliente deve escolher a forma de pagamento no momento da compra.
+
+   As opções de pagamento disponíveis são: À vista, Débito, Crédito (parcelado em até 12 vezes), Boleto e Pix.
+
+   RN004-**Cancelamento de pedido:**
+   O sistema deve fornecer uma opção de cancelamento de pedido no site da loja.
+
+   Os clientes têm o direito de cancelar seus pedidos antes da entrega.
+
+   RN005- **Relatórios e Controle de pedidos:**
+   O sistema deve manter um registro de todos os pedidos realizados.
+
+   O relatório de pedidos deve ser atualizado automaticamente após a finalização ou cancelamento de um pedido.
+
+   O relatório poderá ser visto apenas pelo administrador.
+
+# Requisitos Funcionais
+
+   RF001- **Cadastro de Clientes**
+   
+   O Sistema deve realizar o cadastro dos clientes em que o usuario deve informar seus dados.
+
+   RF002- **Gestão dos pedidos**
+
+   RF003- **Carrinho**
+
+   O sistema deve autorizar o usuario à adicionar e remover produtos produtos
+
+   RF004-
+
+   RF005-
+
+   RF006-
+
+   RF007-
+
+   RF008-
+
+   RF009-
+
+   RF010-
+
+# Requisitos Não Funcionais
+
+   RNF001-
+
+   RNF002-
+
+   RNF003-
+
+   RNF004-
+
+   RNF005-
+
+   RNF006-
+
+   RNF007-
+
+   RNF008-
+
+   RNF009-
+
+   RNF010-
+
