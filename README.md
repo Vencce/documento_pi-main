@@ -83,23 +83,36 @@ O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móvei
 
    RF002- **Gestão dos pedidos**
 
-   RF003- **Carrinho**
+   O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
 
-   O sistema deve autorizar o usuario à adicionar e remover produtos produtos
+   RF003- **Controle de Pagamentos**
 
-   RF004-
+   O sistema deve possibilitar o registro dos pagamentos realizados pelos clientes, permitindo as formas de pagamento disponíveis (à vista, débito e crédito) e registrando as informações relevantes, como valor pago, data e hora do pagamento.
 
-   RF005-
+   RF004-**Controle de estoque**
 
-   RF006-
+   O sistema deve manter um registro atualizado do estoque de móveis pré-moldados, permitindo a atualização das quantidades disponíveis após a realização de vendas e entregas.
 
-   RF007-
+   RF005-**Gerenciamento de prazos de entrega**
 
-   RF008-
+   O sistema deve permitir o estabelecimento de prazos de entrega para os pedidos, possibilitando que a equipe saiba quando cada pedido deve ser entregue aos clientes.
 
-   RF009-
+   RF006-**Cancelamento de pedidos**
 
-   RF010-
+   O sistema deve permitir o cancelamento de pedidos, tanto por parte dos clientes como por parte da loja, registrando os motivos para o cancelamento.
+
+   RF007-**Notificação de pedidos finalizados**
+
+   O sistema deve notificar o gerente ou a equipe responsável quando um pedido for finalizado, indicando que está pronto para entrega.
+
+   RF008-**Atendimento pós-venda**
+
+   O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados pelos clientes após a entrega, permitindo que a loja acompanhe e resolva essas questões de forma adequada.
+
+   RF009-**Geração de relatórios**
+
+   O sistema deve ser capaz de gerar relatórios que forneçam informações relevantes sobre os pedidos, incluindo seu status, informações sobre os clientes e outras métricas úteis para o gerenciamento da loja.
+
 
 # Requisitos Não Funcionais
 
