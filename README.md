@@ -116,23 +116,11 @@ O nosso cliente Sr. José de Souza , possuí uma loja de móveis chamada "Móvei
 
 # Requisitos Não Funcionais
 
-   RNF001-
-
-   RNF002-
-
-   RNF003-
-
-   RNF004-
-
-   RNF005-
-
-   RNF006-
-
-   RNF007-
-
-   RNF008-
-
-   RNF009-
-
-   RNF010-
+   RNF001 - A senha do usuário deve ter no mínimo 8 caracteres.
+   
+   RNF002 - O sistema deve ser capaz de atuar em diversos dispositivos sem alterações na funcionalidade
+   
+   RNF003 - O sistema será desenvolvido em React-Native e Django
+   
+   RNF004 - O sistema deve ser de fácil uso, para utilização de qualquer usuário.
 
