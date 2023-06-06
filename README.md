@@ -51,21 +51,19 @@ Com os problemas apresentados anteriormente, o objetivo dessa proposta é desenv
 
 O foco do sistema será a gestão dos pedidos e clientes, auxiliando de forma prática no cadastro dos clientes e no controle dos pedidos e geração de relatórios. 
 
-Os clientes terão que cadastrar suas informações como CPF, telefone, endereço, nome e e-mail para a empresa ter um maior controle das suas vendas e melhorar sua comunicação.
+O sistema deve cadastrar as informações dos clientes contendo o CPF, telefone, endereço, nome e e-mail para a empresa ter um maior controle das suas vendas e melhorar sua comunicação.
 
-Agora os clientes poderão ter novas formas de pagamento já que as formas de pagamento da empresa estão desatualizadas. As formas de pagamento serão: à vista, débito, crédito (parcelando em até 12x), boleto, pix.
+Agora o sistema pode fazer com que o cliente tenha novas formas de pagamento já que as formas de pagamento da empresa estão desatualizadas. As formas de pagamento serão: à vista, débito, crédito (parcelando em até 12x), boleto, pix.
 
 O pedido será efetuado e devidemente preparado para entrega, agora com um prazo de entrega pré-definido de acordo com o produto e sua disponibilidade.
 
-O cliente poderá cancelar sua compra pelo site da loja, sem precisar ir até lá pessoalmente. 
+O sistema permitirá cancelar a sua compra pelo site da loja, sem precisar ir até lá pessoalmente. 
 
-Após a efetuação do pedido, este será registrado em um relatório, para que o gerente tenha um controle dos pedidos realizados, e da situação do pedido. 
-
-TODO: Revisar: **O relatório é atualizado após um novo pedido ou a finalização de outro pedido.**
+Após a efetuação do pedido, este será registrado em um relatório, para que o gerente tenha um controle dos pedidos realizados, e da situação do pedido.
 
 O site terá as telas iniciais com uma breve apresentação dos produtos, a página específica de cada produto, uma página para realizar a compra do produto, uma página para registro do cliente, e para os gerentes, uma página de controle dos pedidos e relatórios.
 
-O sistema terá partes que serão exclusivas dos gerentes, como a parte de geração dos relatórios **(que tipo)** e todo o controle dos pedidos.
+O sistema terá partes que serão exclusivas dos gerentes, como a parte de geração dos relatórios de pedidos e vendas e todo o controle dos pedidos.
 
 # Regras de Negócio
 
@@ -90,12 +88,12 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
 ## Entrada
 
 - **RF001- Cadastro de clientes:** O sistema deve solicitar os dados para o cadastro do cliente. 
-  - **Dados necessários:** nome e e-mail, telefone, CPF, endereço.
-  - **Usuários:** cliente, vendedor.
+  - **Dados necessários:** Nome e e-mail, telefone, CPF, endereço.
+  - **Usuários:** Cliente, vendedor.
 
 - **RF002- Inclusão de pedido** O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
-  - **Dados necessários:** 
-  - **Usuários:** 
+  - **Dados necessários:** Lista de produto do cliente e o valor de cada produto.
+  - **Usuários:** Vendedor.
 
 - Cadastro de produto
 - 
@@ -103,28 +101,38 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
 
 - **RF003- Controle de Pagamentos**
 O sistema deve possibilitar o registro dos pagamentos realizados pelos clientes, permitindo as formas de pagamento disponíveis (à vista, débito e crédito) e registrando as informações relevantes, como valor pago, data e hora do pagamento.
+  - **Dados necessários:** Valor pago, data e hora do pagamento.
+  - **Usuários:** Vendedor e Gerente.
 
 - **RF004- Controle de estoque**
 O sistema deve manter um registro atualizado do estoque, permitindo a atualização das quantidades disponíveis após a realização de vendas e entregas.
+  - **Dados necessários:** Dados das novas vendas e entregas.
+  - **Usuários:** Gerente.
  
 - **RF005- Gerenciamento de prazos de entrega**
 O sistema deve permitir o estabelecimento de prazos de entrega para os pedidos, possibilitando que a equipe saiba quando cada pedido deve ser entregue aos clientes.
+  - **Dados necessários:** 
+  - **Usuários:**  Gerente, vendedor e cliente.
 
 - **RF006- Notificação de pedidos finalizados**
 O sistema deve notificar o gerente ou a equipe responsável quando um pedido for finalizado, indicando que está pronto para entrega.
+  - **Dados necessários:** pedidos finalizados
+  - **Usuários:** Vendedor e gerente.
 
 ## Saída
 
 - **RF007- Geração de relatórios**
 O sistema deve ser capaz de gerar relatórios que forneçam informações relevantes sobre os pedidos, incluindo seu status, informações sobre os clientes e outras métricas úteis para o gerenciamento da loja.
+  - **Dados necessários:** pedidos, seus status e informações dos clientes.
+  - **Usuários:** Gerente.
 
 # Requisitos Não Funcionais
 
-RNF001 - A senha do usuário deve ter no mínimo 8 caracteres **(detalhes)**.
+RNF001 - A senha do usuário deve ter no mínimo 8 caracteres, contendo pelo menos um número,uma letra maiúscula e um caractere especial
    
-RNF002 - O sistema deve ser capaz de atuar em diversos dispositivos **(??)** sem alterações na funcionalidade.
+RNF002 - O sistema deve ser capaz de atuar em diversas plataformas como dispositivos mobile e computadores sem alterações na funcionalidade.
    
-RNF003 - O sistema será desenvolvido em React-Native e Django.
+RNF003 - O sistema será desenvolvido em front-end em React-Native e Vue.js e o back-end em Django.
    
 RNF004 - O sistema deve ser de fácil uso, para utilização de qualquer usuário.
 
