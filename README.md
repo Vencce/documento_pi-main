@@ -45,8 +45,6 @@ Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que aux
  
 # Descrição da Proposta
 
-**TODO: COlocar o foco no sistema e não no cliente.**
-
 Com os problemas apresentados anteriormente, o objetivo dessa proposta é desenvolver um software que melhore o a gestão de clientes, produtos, vendas e estoque.
 
 O foco do sistema será a gestão dos pedidos e clientes, auxiliando de forma prática no cadastro dos clientes e no controle dos pedidos e geração de relatórios. 
@@ -94,9 +92,7 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
 - **RF002- Inclusão de pedido** O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
   - **Dados necessários:** Lista de produto do cliente e o valor de cada produto.
   - **Usuários:** Vendedor.
-
-- Cadastro de produto
-- 
+  - 
 ## Processamento
 
 - **RF003- Controle de Pagamentos**
