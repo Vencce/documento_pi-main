@@ -92,7 +92,7 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
 - **RF002- Inclusão de pedido** O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
   - **Dados necessários:** Lista de produto do cliente e o valor de cada produto.
   - **Usuários:** Vendedor.
-  - 
+   
 ## Processamento
 
 - **RF003- Controle de Pagamentos**
