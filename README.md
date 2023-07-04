@@ -90,10 +90,16 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
   - **Usuários:** Cliente, vendedor.
 
 - **RF002- Inclusão de pedido** O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
-  - **Dados necessários:** Lista de produto do cliente e o valor de cada produto.
-  - **Usuários:** Vendedor.
+  - **Dados necessários:** Lista de produto do cliente, valor e quantidade.
+  - **Usuários:** Cliente.
+ 
+  - ******  falta o cadastro de produtos*****
    
 ## Processamento
+
+*** visualizar produtos *****
+
+*** venda ****
 
 - **RF003- Controle de Pagamentos**
 O sistema deve possibilitar o registro dos pagamentos realizados pelos clientes, permitindo as formas de pagamento disponíveis (à vista, débito e crédito) e registrando as informações relevantes, como valor pago, data e hora do pagamento.
@@ -105,9 +111,9 @@ O sistema deve manter um registro atualizado do estoque, permitindo a atualizaç
   - **Dados necessários:** Dados das novas vendas e entregas.
   - **Usuários:** Gerente.
  
-- **RF005- Gerenciamento de prazos de entrega**
+- **RF005- Controle de entrega**
 O sistema deve permitir o estabelecimento de prazos de entrega para os pedidos, possibilitando que a equipe saiba quando cada pedido deve ser entregue aos clientes.
-  - **Dados necessários:** 
+  - **Dados necessários:** Numero do pedido, data, endereco.
   - **Usuários:**  Gerente, vendedor e cliente.
 
 - **RF006- Notificação de pedidos finalizados**
@@ -117,10 +123,14 @@ O sistema deve notificar o gerente ou a equipe responsável quando um pedido for
 
 ## Saída
 
-- **RF007- Geração de relatórios**
+- **RF007- Relatório de Vendas**
 O sistema deve ser capaz de gerar relatórios que forneçam informações relevantes sobre os pedidos, incluindo seu status, informações sobre os clientes e outras métricas úteis para o gerenciamento da loja.
   - **Dados necessários:** pedidos, seus status e informações dos clientes.
   - **Usuários:** Gerente.
+  - 
+
+  ***Relatório de Produtos****
+ --Gerente
 
 # Requisitos Não Funcionais
 
