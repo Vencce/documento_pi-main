@@ -45,6 +45,8 @@ Após a análise da loja no dia-a-dia foi nítida a falta de um sistema, que aux
  
 # Descrição da Proposta
 
+**TODO: COlocar o foco no sistema e não no cliente.**
+
 Com os problemas apresentados anteriormente, o objetivo dessa proposta é desenvolver um software que melhore o a gestão de clientes, produtos, vendas e estoque.
 
 O foco do sistema será a gestão dos pedidos e clientes, auxiliando de forma prática no cadastro dos clientes e no controle dos pedidos e geração de relatórios. 
@@ -65,7 +67,7 @@ O sistema terá partes que serão exclusivas dos gerentes, como a parte de gera�
 
 # Regras de Negócio
 
-- **RF001- Cadastro de Clientes**: Para realizar o pedido o cliente deve estar cadastrado no sistema.
+- **RN001- Cadastro de Clientes**: Para realizar o pedido o cliente deve estar cadastrado no sistema.
 - O pedido será separado para entrega conforme disponibilidade no estoque.
 - O sistema deve estabelecer um prazo de entrega pré-definido com base no produto e sua disponibilidade.
 
@@ -73,12 +75,12 @@ O sistema terá partes que serão exclusivas dos gerentes, como a parte de gera�
 
 - **RN003- Cancelamento de pedido:** O sistema deve fornecer uma opção de cancelamento de pedido no site da loja. Os clientes têm o direito de cancelar seus pedidos antes da entrega.
 
-- **RN005- Relatórios e Controle de pedidos:** O sistema deve manter um registro de todos os pedidos realizados.
+- **RN004- Relatórios e Controle de pedidos:** O sistema deve manter um registro de todos os pedidos realizados.
 
 - O relatório de pedidos deve ser atualizado automaticamente após a finalização ou cancelamento de um pedido.
 - O relatório poderá ser visto apenas pelo administrador.
 
-- **RF008- Atendimento pós-venda**
+- **RN005- Atendimento pós-venda**
 O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados pelos clientes após a entrega, permitindo que a loja acompanhe e resolva essas questões de forma adequada.
 
 # Requisitos Funcionais
@@ -90,47 +92,41 @@ O sistema deve fornecer uma forma de registro de problemas ou defeitos relatados
   - **Usuários:** Cliente, vendedor.
 
 - **RF002- Inclusão de pedido** O sistema deve permitir o registro dos pedidos feitos pelos clientes, incluindo a lista de produtos escolhidos e suas quantidades.
-  - **Dados necessários:** Lista de produto do cliente, valor e quantidade.
-  - **Usuários:** Cliente.
- 
-  - ******  falta o cadastro de produtos*****
-   
+  - **Dados necessários:** Lista de produto do cliente e o valor de cada produto.
+  - **Usuários:** Vendedor.
+
+- **RF003- Cadastro de produto:** O sistema deve ser capaz de cadastrar os produtos.
+  - **Dados necessários:** Informações dos produtos.
+  - **Usuários:** Gerente.
+- 
 ## Processamento
 
-*** visualizar produtos *****
-
-*** venda ****
-
-- **RF003- Controle de Pagamentos**
+- **RF004- Controle de Pagamentos**
 O sistema deve possibilitar o registro dos pagamentos realizados pelos clientes, permitindo as formas de pagamento disponíveis (à vista, débito e crédito) e registrando as informações relevantes, como valor pago, data e hora do pagamento.
   - **Dados necessários:** Valor pago, data e hora do pagamento.
   - **Usuários:** Vendedor e Gerente.
 
-- **RF004- Controle de estoque**
+- **RF005- Controle de estoque**
 O sistema deve manter um registro atualizado do estoque, permitindo a atualização das quantidades disponíveis após a realização de vendas e entregas.
   - **Dados necessários:** Dados das novas vendas e entregas.
   - **Usuários:** Gerente.
  
-- **RF005- Controle de entrega**
+- **RF006- Gerenciamento de prazos de entrega**
 O sistema deve permitir o estabelecimento de prazos de entrega para os pedidos, possibilitando que a equipe saiba quando cada pedido deve ser entregue aos clientes.
-  - **Dados necessários:** Numero do pedido, data, endereco.
+  - **Dados necessários:** 
   - **Usuários:**  Gerente, vendedor e cliente.
 
-- **RF006- Notificação de pedidos finalizados**
+- **RF007- Notificação de pedidos finalizados**
 O sistema deve notificar o gerente ou a equipe responsável quando um pedido for finalizado, indicando que está pronto para entrega.
   - **Dados necessários:** pedidos finalizados
   - **Usuários:** Vendedor e gerente.
 
 ## Saída
 
-- **RF007- Relatório de Vendas**
+- **RF008- Geração de relatórios**
 O sistema deve ser capaz de gerar relatórios que forneçam informações relevantes sobre os pedidos, incluindo seu status, informações sobre os clientes e outras métricas úteis para o gerenciamento da loja.
   - **Dados necessários:** pedidos, seus status e informações dos clientes.
   - **Usuários:** Gerente.
-  - 
-
-  ***Relatório de Produtos****
- --Gerente
 
 # Requisitos Não Funcionais
 
@@ -142,3 +138,6 @@ RNF003 - O sistema será desenvolvido em front-end em React-Native e Vue.js e o 
    
 RNF004 - O sistema deve ser de fácil uso, para utilização de qualquer usuário.
 
+# Casos de Uso
+
+[Casos de uso](docs/CASOSDEUSO.png "Casos de uso")
